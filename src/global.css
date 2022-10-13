@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;900&display=swap');
+
+body {
+    background: #141414;
+    font-family: 'Inter', sans-serif;
+}
+
+.blueBox {
+    background-color: #011765;
+}
+
+.greenBox {
+    background-color: #357900;
+}
