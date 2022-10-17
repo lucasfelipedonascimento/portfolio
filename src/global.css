@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #141414;
     font-family: 'Inter', sans-serif;
@@ -15,4 +21,46 @@ body {
 
 .greenBox {
     background-color: #357900;
+}
+
+.text-Project {
+    color: white;
+    text-align: center;
+}
+
+.botao-Projeto {
+    background-color: #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-inline: 20px;
+    padding-block: 8px;
+    border-radius: 4px;
+}
+
+.botao-OtherProjects {
+    background-color: #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.box-Project {
+    border: 2px solid white;
+    padding-block: 40px;
+}
+
+.apresentationBlock {
+    color: white;
+}
+
+@media (min-width: 1024px) {
+    .botao-Projeto:hover,
+    .botao-OtherProjects:hover {
+        background-color: #6b21a8;
+    }
 }
