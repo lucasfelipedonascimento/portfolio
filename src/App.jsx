@@ -1,13 +1,11 @@
 /** @format */
 
-import { useState } from "react";
 import { Apresentacao } from "./componentes/Apresentation";
 import { Tecnologias } from "./componentes/Tecnologias";
 import { Projetos } from "./componentes/Projetos";
 import { RedesSociais } from "./componentes/RedeSociais";
 
 export function App() {
-  const [count, setCount] = useState(0);
   return (
     <div className="flex justify-center w-full">
       <div className="bg-gray-900">

@@ -4,11 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     background: #141414;
@@ -50,7 +45,8 @@ body {
 }
 
 .box-Project {
-    border: 2px solid white;
+    background-color: #202026;
+    border: 2px solid #3c3c3c;
     padding-block: 40px;
 }
 

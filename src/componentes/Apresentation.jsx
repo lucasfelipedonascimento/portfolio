@@ -2,7 +2,7 @@
 
 export function Apresentacao() {
   return (
-    <div className="w-full">
+    <div>
       <div className="flex flex-col md:flex-row items-center mt-40">
         <img
           src="./src/assets/my-self.jpeg"
