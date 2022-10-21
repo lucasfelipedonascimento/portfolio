@@ -24,7 +24,7 @@ export function Projetos() {
 
                 <p className="text-Project text-xs w-56">
                   O NLW Return foi um evento de uma semana proposto pela
-                  Rocketseat para que nós desenvolvedores podéssemos praticar e
+                  Rocketseat para que nós desenvolvedores pudéssemos praticar e
                   desenvolver um front-end completo de um site.
                 </p>
               </div>
@@ -56,7 +56,7 @@ export function Projetos() {
                 <h2 className="text-Project font-bold">
                   Programa de Mensagens
                 </h2>
-                <p className="text-Project text-xs w-56">
+                <p className="text-Project text-xs w-56 mr-3">
                   Essa Maratona foi o evento feito pela Rocketseat para
                   desenvolvedores iniciantes. O projeto consiste na criação de
                   um programa para mostrar mensagens na tela..
@@ -91,7 +91,7 @@ export function Projetos() {
               </div>
               <div className="flex flex-col gap-4">
                 <h2 className="text-Project font-bold">Landing Page - Stone</h2>
-                <p className="text-Project text-xs w-56">
+                <p className="text-Project text-xs w-56 mr-3">
                   Nesse projeto, fiz um clone da página do banco Stone. Onde
                   usei HTML e CSS para desenvolver a Landing Page. No código
                   procurei fazer padrões, já que vi que em algumas seções sempre
@@ -106,8 +106,7 @@ export function Projetos() {
                 <a
                   href="https://lucasfelipedonascimento.github.io/page-stone/"
                   className="text-white font-bold text-2xl"
-                  target="_blank"
-                >
+                  target="_blank">
                   PROJETO
                 </a>
                 <img src="./src/assets/projetos/link.svg" alt="ícone de link" />

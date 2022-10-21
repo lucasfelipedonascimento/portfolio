@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;900&display=swap');
-
-
 body {
     background: #141414;
     font-family: 'Inter', sans-serif;
@@ -46,6 +43,7 @@ body {
 
 .box-Project {
     background-color: #202026;
+    border-radius: 5px;
     border: 2px solid #3c3c3c;
     padding-block: 40px;
 }

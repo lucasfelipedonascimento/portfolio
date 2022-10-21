@@ -21,7 +21,7 @@ export function Apresentacao() {
             frameworks como React e TailwindCSS.
           </p>
 
-          <h4 className="apresentationBlock text-2xl font-semibold">
+          <h4 className="apresentationBlock text-2xl font-semibold mx-2 md:mx-auto">
             Desenvolvedor Front-End
           </h4>
         </div>
