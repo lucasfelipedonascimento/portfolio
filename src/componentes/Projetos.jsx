@@ -1,4 +1,9 @@
 /** @format */
+import "./assets/projetos/projeto-return.svg";
+import "./assets/projetos/projeto-mensagens.svg";
+import "./assets/projetos/projeto-stone-page.svg";
+import "./assets/projetos/projeto-microtwitter.svg";
+import "./assets/projetos/link.svg";
 
 export function Projetos() {
   return (
@@ -106,7 +111,8 @@ export function Projetos() {
                 <a
                   href="https://lucasfelipedonascimento.github.io/page-stone/"
                   className="text-white font-bold text-2xl"
-                  target="_blank">
+                  target="_blank"
+                >
                   PROJETO
                 </a>
                 <img src="./src/assets/projetos/link.svg" alt="ícone de link" />

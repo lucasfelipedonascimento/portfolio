@@ -1,4 +1,13 @@
 /** @format */
+import "./assets/icones/icone-html.svg";
+import "./assets/icones/icone-css.svg";
+import "./assets/icones/icone-js.svg";
+import "./assets/icones/icone-figma.svg";
+import "./assets/icones/icone-github.svg";
+import "./assets/icones/icone-vscode.svg";
+import "./assets/icones/icone-react.svg";
+import "./assets/icones/icone-node.svg";
+import "./assets/icones/icone-vite.svg";
 
 export function Tecnologias() {
   return (
