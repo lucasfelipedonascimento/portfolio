@@ -1,4 +1,7 @@
 /** @format */
+import "./src/assets/redesSociais/github.svg";
+import "./src/assets/redesSociais/instagram.svg";
+import "./src/assets/redesSociais/linkedin.svg";
 
 export function RedesSociais() {
   return (
@@ -9,25 +12,28 @@ export function RedesSociais() {
             <img
               src="./src/assets/redesSociais/instagram.svg"
               alt="ícone do instagram"
-              className="w-8 mt-3 mr-3"/>
+              className="w-8 mt-3 mr-3"
+            />
           </a>
 
           <a href="https://github.com/lucasfelipedonascimento" target="_blank">
             <img
               src="./src/assets/redesSociais/github.svg"
               alt="ícone do github"
-              className="w-8 m-3"/>
+              className="w-8 m-3"
+            />
           </a>
 
           <a
             href="https://www.linkedin.com/in/lucasfelipedonascimento/"
-            target="_blank">
+            target="_blank"
+          >
             <img
               src="./src/assets/redesSociais/linkedin.svg"
               alt="ícone do linkedin"
-              className="w-8 m-3"/>
+              className="w-8 m-3"
+            />
           </a>
-          
         </div>
       </div>
     </div>
