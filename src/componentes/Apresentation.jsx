@@ -6,7 +6,7 @@ export function Apresentacao() {
     <div>
       <div className="flex flex-col md:flex-row items-center mt-40">
         <img
-          src="./src/assets/my-self.jpeg"
+          src="./src/assets/my-self.svg"
           alt="foto do Lucas"
           className="rounded-full w-64 mx-auto"
         />
