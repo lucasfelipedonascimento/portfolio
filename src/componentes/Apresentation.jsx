@@ -1,5 +1,5 @@
 /** @format */
-import "./src/assets/my-self.jpeg";
+import "../assets/my-self.svg";
 
 export function Apresentacao() {
   return (

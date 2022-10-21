@@ -1,7 +1,7 @@
 /** @format */
-import "./src/assets/redesSociais/github.svg";
-import "./src/assets/redesSociais/instagram.svg";
-import "./src/assets/redesSociais/linkedin.svg";
+import "../assets/redesSociais/github.svg";
+import "../assets/redesSociais/instagram.svg";
+import "../assets/redesSociais/linkedin.svg";
 
 export function RedesSociais() {
   return (

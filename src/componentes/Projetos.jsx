@@ -1,9 +1,9 @@
 /** @format */
-import "./src/assets/projetos/projeto-return.svg";
-import "./src/assets/projetos/projeto-mensagens.svg";
-import "./src/assets/projetos/projeto-stone-page.svg";
-import "./src/assets/projetos/projeto-microtwitter.svg";
-import "./src/assets/projetos/link.svg";
+import "../assets/projetos/projeto-return.svg";
+import "../assets/projetos/projeto-mensagens.svg";
+import "../assets/projetos/projeto-stone-page.svg";
+import "../assets/projetos/projeto-microtwitter.svg";
+import "../assets/projetos/link.svg";
 
 export function Projetos() {
   return (
