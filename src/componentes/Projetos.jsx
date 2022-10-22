@@ -1,9 +1,9 @@
 /** @format */
-import "../assets/projetos/projeto-return.svg";
-import "../assets/projetos/projeto-mensagens.svg";
-import "../assets/projetos/projeto-stone-page.svg";
-import "../assets/projetos/projeto-microtwitter.svg";
-import "../assets/projetos/link.svg";
+import ProjetoReturn from "../assets/projetos/projeto-return.svg";
+import ProjetoMensagens from "../assets/projetos/projeto-mensagens.svg";
+import ProjetoMicroTwitter from "../assets/projetos/projeto-microtwitter.svg";
+import ProjetoStone from "../assets/projetos/projeto-stone-page.svg";
+import IconeLink from "../assets/projetos/link.svg";
 
 export function Projetos() {
   return (
@@ -18,7 +18,7 @@ export function Projetos() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="m-5">
                 <img
-                  src="./src/assets/projetos/projeto-return.svg"
+                  src={ProjetoReturn}
                   alt="background do NLW Return"
                   className="w-32 h-32"
                 />
@@ -34,6 +34,7 @@ export function Projetos() {
                 </p>
               </div>
             </div>
+
             <div className="flex flex-col">
               <button className="botao-Projeto duration-500 mt-3">
                 <a
@@ -43,7 +44,7 @@ export function Projetos() {
                 >
                   PROJETO
                 </a>
-                <img src="./src/assets/projetos/link.svg" alt="ícone de link" />
+                <img src={IconeLink} alt="ícone de link" />
               </button>
             </div>
           </div>
@@ -52,7 +53,7 @@ export function Projetos() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="m-5">
                 <img
-                  src="./src/assets/projetos/projeto-mensagens.svg"
+                  src={ProjetoMensagens}
                   alt="Background Projeto de Mensagens"
                   className="w-32 h-32"
                 />
@@ -78,7 +79,7 @@ export function Projetos() {
                 >
                   PROJETO
                 </a>
-                <img src="./src/assets/projetos/link.svg" alt="ícone de link" />
+                <img src={IconeLink} alt="ícone de link" />
               </button>
             </div>
           </div>
@@ -89,7 +90,7 @@ export function Projetos() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="m-5">
                 <img
-                  src="./src/assets/projetos/projeto-stone-page.svg"
+                  src={ProjetoStone}
                   alt="Background da Página Stone"
                   className="w-32 h-32"
                 />
@@ -115,7 +116,7 @@ export function Projetos() {
                 >
                   PROJETO
                 </a>
-                <img src="./src/assets/projetos/link.svg" alt="ícone de link" />
+                <img src={IconeLink} alt="ícone de link" />
               </button>
             </div>
           </div>
@@ -124,7 +125,7 @@ export function Projetos() {
             <div className="flex flex-col md:flex-row items-center">
               <div className="m-5">
                 <img
-                  src="./src/assets/projetos/projeto-microtwitter.svg"
+                  src={ProjetoMicroTwitter}
                   alt="background-MicroTwitter"
                   className="w-32 h-32"
                 />
@@ -148,7 +149,7 @@ export function Projetos() {
                 >
                   PROJETO
                 </a>
-                <img src="./src/assets/projetos/link.svg" alt="ícone de link" />
+                <img src={IconeLink} alt="ícone de link" />
               </button>
             </div>
           </div>
@@ -164,7 +165,7 @@ export function Projetos() {
           >
             OUTROS PROJETOS
           </a>
-          <img src="./src/assets/projetos/link.svg" alt="ícone de link" />
+          <img src={IconeLink} alt="ícone de link" />
         </button>
       </div>
     </div>

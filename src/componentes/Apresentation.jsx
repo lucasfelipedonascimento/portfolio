@@ -1,12 +1,12 @@
 /** @format */
-import "../assets/my-self.svg";
+import FotoPerfil from "../assets/my-self.svg";
 
 export function Apresentacao() {
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center mt-40">
         <img
-          src="./src/assets/my-self.svg"
+          src={FotoPerfil}
           alt="foto do Lucas"
           className="rounded-full w-64 mx-auto"
         />

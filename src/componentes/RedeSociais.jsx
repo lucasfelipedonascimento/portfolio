@@ -1,7 +1,7 @@
 /** @format */
-import "../assets/redesSociais/github.svg";
-import "../assets/redesSociais/instagram.svg";
-import "../assets/redesSociais/linkedin.svg";
+import IconGitHub from "../assets/redesSociais/github.svg";
+import IconInstagram from "../assets/redesSociais/instagram.svg";
+import IconLinkedin from "../assets/redesSociais/linkedin.svg";
 
 export function RedesSociais() {
   return (
@@ -10,15 +10,15 @@ export function RedesSociais() {
         <div className="flex justify-center md:justify-start md:ml-5 gap-2">
           <a href="https://www.instagram.com/lucas_felipe301/" target="_blank">
             <img
-              src="./src/assets/redesSociais/instagram.svg"
+              src={IconInstagram}
               alt="ícone do instagram"
-              className="w-8 mt-3 mr-3"
+              className="w-8 m-3"
             />
           </a>
 
           <a href="https://github.com/lucasfelipedonascimento" target="_blank">
             <img
-              src="./src/assets/redesSociais/github.svg"
+              src={IconGitHub}
               alt="ícone do github"
               className="w-8 m-3"
             />
@@ -26,10 +26,9 @@ export function RedesSociais() {
 
           <a
             href="https://www.linkedin.com/in/lucasfelipedonascimento/"
-            target="_blank"
-          >
+            target="_blank">
             <img
-              src="./src/assets/redesSociais/linkedin.svg"
+              src={IconLinkedin}
               alt="ícone do linkedin"
               className="w-8 m-3"
             />
