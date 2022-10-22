@@ -7,7 +7,7 @@ import { RedesSociais } from "./componentes/RedeSociais";
 
 export function App() {
   return (
-    <div className="flex justify-center w-full">
+    <div className="flex justify-center">
       <div className="bg-gray-900">
         <div className="flex flex-col">
           <div className="greenBox w-56 py-2.5 xl:py-3.5"></div>
