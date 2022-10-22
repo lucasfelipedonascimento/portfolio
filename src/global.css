@@ -5,6 +5,7 @@
 body {
     background: #141414;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 
 .blueBox {

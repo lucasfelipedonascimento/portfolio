@@ -5,6 +5,7 @@ import { Tecnologias } from "./componentes/Tecnologias";
 import { Projetos } from "./componentes/Projetos";
 import { RedesSociais } from "./componentes/RedeSociais";
 
+
 export function App() {
   return (
     <div className="flex justify-center">
