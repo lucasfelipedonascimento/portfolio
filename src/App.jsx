@@ -1,10 +1,9 @@
 /** @format */
 
-import { Apresentacao } from "./componentes/Apresentation";
-import { Tecnologias } from "./componentes/Tecnologias";
-import { Projetos } from "./componentes/Projetos";
-import { RedesSociais } from "./componentes/RedeSociais";
-
+import { Apresentation } from "./components/Apresentation";
+import { Projects } from "./components/Projects";
+import { SocialMedias } from "./components/SocialMedias";
+import { Technologies } from "./components/Technologies";
 
 export function App() {
   return (
@@ -15,10 +14,10 @@ export function App() {
           <div className="bg-yellow-500 w-48 py-2.5 xl:py-3.5"></div>
           <div className="blueBox w-40 py-2.5 xl:py-3.5"></div>
 
-          <Apresentacao />
-          <Tecnologias />
-          <Projetos />
-          <RedesSociais />
+          <Apresentation />
+          <Technologies />
+          <Projects />
+          <SocialMedias />
         </div>
       </div>
     </div>

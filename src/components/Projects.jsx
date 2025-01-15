@@ -5,7 +5,7 @@ import ProjetoMicroTwitter from "../assets/projetos/projeto-microtwitter.svg";
 import ProjetoStone from "../assets/projetos/projeto-stone-page.svg";
 import IconeLink from "../assets/projetos/link.svg";
 
-export function Projetos() {
+export function Projects() {
   return (
     <div>
       <h1 className="text-white text-3xl font-semibold text-center mt-20">

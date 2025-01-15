@@ -3,7 +3,7 @@ import IconGitHub from "../assets/redesSociais/github.svg";
 import IconInstagram from "../assets/redesSociais/instagram.svg";
 import IconLinkedin from "../assets/redesSociais/linkedin.svg";
 
-export function RedesSociais() {
+export function SocialMedias() {
   return (
     <div>
       <div className="mt-20 bg-gray-800">
